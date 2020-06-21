@@ -12,6 +12,14 @@ import static java.lang.Math.pow;
 
 public class Calculator {
 
+    /**
+    *@NORMAL        operator for normal.
+    *@ADD           operator for add.
+    *@MINUS         operator for minus.
+    *@MULTIPLY      operator for multiply.
+    *@DIVIDE        operator for divide.
+    *@XPOWEROFY     operator for xpowerofy.
+    */
     public enum BiOperatorModes {
         NORMAL, ADD, MINUS, MULTIPLY, DIVIDE, XPOWEROFY
     }
