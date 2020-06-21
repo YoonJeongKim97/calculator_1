@@ -26,10 +26,24 @@ public class Calculator {
     }
 
     public enum MonoOperatorModes {
+        /**
+        *SQAURE         operator for square.
+        *SQUAREROOT     operator for squareroot.
+        *ONEDIVIDEDBY   operator for onedividedbt.
+        *COS            operator for cos.
+        *SIN            operator for sin.
+        *TAN            operator for tan.
+        *LOG            operator for log.
+        *RATE           operator for rate.
+        *ABS            operator for abs.
+        */
         SQUARE, SQUAREROOT, ONEDIVIDEDBY, COS, SIN, TAN ,LOG , RATE, ABS
     }
 
     private Double num1, num2;
+    /**
+    *mode                variable for operator mode and default value is normal.
+    */
     private BiOperatorModes mode = BiOperatorModes.NORMAL;
 
     private Double calculateBiImpl() {
