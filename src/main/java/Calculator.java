@@ -37,9 +37,13 @@ public class Calculator {
         *RATE           operator for rate.
         *ABS            operator for abs.
         */
-        SQUARE, SQUAREROOT, ONEDIVIDEDBY, COS, SIN, TAN ,LOG , RATE, ABS
+        SQUARE, SQUAREROOT, ONEDIVIDEDBY, COS, SIN, TAN, LOG, RATE, ABS
     }
 
+    /**
+    *num1               variable for first number on calculation
+    *num2               variable for first number on calculation
+    */
     private Double num1, num2;
     /**
     *mode                variable for operator mode and default value is normal.
@@ -67,7 +71,7 @@ public class Calculator {
             return num1 / num2;
         }
         if (mode == BiOperatorModes.XPOWEROFY) {
-            return pow(num1,num2);
+            return pow(num1, num2);
         }
 
         // never reach
@@ -132,7 +136,7 @@ public class Calculator {
         if (newMode == MonoOperatorModes.RATE) {
            return num / 100;
         }
-        if (newMode == MonoOperatorModes.ABS){
+        if (newMode == MonoOperatorModes.ABS) {
             return Math.abs(num);
         }
 
