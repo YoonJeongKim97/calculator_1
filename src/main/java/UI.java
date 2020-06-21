@@ -36,27 +36,12 @@ public class UI implements ActionListener {
    private final JPanel panelSub8;
    
    private final JTextArea text;
-   private final JButton but[];
-   private final butAdd;
-   private final butMinus;
-   private final butMultiply;
-   private final butDivide;
-   private final butEqual;
-   private final butCancel;
-   private final butSquareRoot;
-   private final butSquare;
-   private final butOneDevidedBy;
-   private final butCos;
-   private final butSin;
-   private final butTan;
-   private final butxpowerofy;
-   private final butlog;
-   private final butrate;
-   private final butabs;
-   private final butBinary;
+   private final JButton but[], butAdd, butMinus, butMultiply, butDivide,
+      butEqual, butCancel, butSquareRoot, butSquare, butOneDevidedBy,
+      butCos, butSin, butTan, butxpowerofy, butlog, butrate, butabs, butBinary;
    private final Calculator calc;
    
-   private static final String[] buttonValue = {"0", "1", "2", "3", "4", "5", "6",
+   private final String[] buttonValue = {"0", "1", "2", "3", "4", "5", "6",
       "7", "8", "9"};
    
    private final Font font;
